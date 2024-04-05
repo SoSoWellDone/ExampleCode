@@ -1,19 +1,10 @@
-from openpyxl import Workbook
-wb = Workbook()
+"""
+Python Hello World program.
+"""
 
-# grab the active worksheet
-ws = wb.active
+def hello(name):
+    return f"Hello {name}!"
 
-# Data can be assigned directly to cells
-ws['A1'] = 42
+if __name__ == "__main__":
+    print(hello("World"))
 
-# Rows can also be appended
-ws.append([1, 2, 3])
-ws.append((4, 5, 6))
-
-# Python types will automatically be converted
-import datetime
-ws['A2'] = datetime.datetime.now()
-
-# Save the file
-wb.save("sample.xlsx")
