@@ -1,21 +1,6 @@
-# ExampleCode
-This is an example code for testing.
+# Example Code
+## in Python
 
+Take a look and enjoy :smile:!
 
-[link](https://kotlet.pl)
-
-<details>
-
-<summary>Tips for collapsed sections</summary>
-
-### You can add a header
-
-You can add text within a collapsed section. 
-
-You can add an image or a code block, too.
-
-```ruby
-   puts "Hello World"
-```
-
-</details>
+by :copy: @SoSoWellDone
